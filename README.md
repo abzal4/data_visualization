@@ -11,4 +11,6 @@ How to run the project:
       - Use file with creating tables and inserting data commands.  
   3. Install the python libraries:
       - pip install -r requirements.txt
-  4. Open database tool or main.py 
+  4. Run main.py:
+      - python main.py
+     Or you can use database tool.
