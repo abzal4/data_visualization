@@ -1,20 +1,54 @@
-Company: Footdata Analystics
+# Footdata Analytics ⚽📊  
 
-Description: The company analyses football data for the past 13 years, including data on clubs, players, games and transfers.
-<img width="1160" height="755" alt="image" src="https://github.com/user-attachments/assets/44bdcc93-ab1b-426e-9b91-47a215b00ad9" />
+## 📌 Company  
+**Footdata Analytics** is a data analytics company focused on football statistics over the past 13 years.  
+We analyze information about **clubs, players, games, and transfers** to discover insights and build meaningful reports.  
 
-Datasets:
-https://www.kaggle.com/datasets/davidcariboo/player-scores/data?select=competitions.csv
+---
 
-How to run the project:
-  1. Requirements:
-      - PostgreSQL
-      - Python
-      - database tool like PgAdmin or DBeaver
-  2. Create database and insert data:
-      - Use file with creating tables and inserting data commands.  
-  3. Install the python libraries:
-      - pip install -r requirements.txt
-  4. Run main.py:
-      - python main.py
-     Or you can use database tool.
+## 📝 Project Description  
+This project contains a relational database with multiple interconnected tables:  
+- **Players** — player details  
+- **Clubs** — club information  
+- **Games** — match results and details  
+- **Transfers** — player transfers between clubs  
+- **Player Valuations** — historical market values of players  
+- **Appearances** — player performance in matches  
+
+The analytics helps answer questions such as:  
+- How has the market value of players changed over time?  
+- Which managers have the highest win rates?  
+- Which clubs are the most active in the transfer market?  
+- What is the average age and market value of different squads?  
+
+---
+
+## 📊 Example Analytics  
+![Analytics Screenshot](https://github.com/user-attachments/assets/44bdcc93-ab1b-426e-9b91-47a215b00ad9)  
+
+---
+
+## 📂 Datasets  
+Entity Relationship Diagram (ERD):  
+👉 [ERD Diagram](https://github.com/abzal4/data_visualization/blob/main/ERD%20Diagram.png)  
+
+---
+
+## 🚀 How to Run the Project  
+
+### 1. Requirements  
+- **PostgreSQL** (database)  
+- **Python 3.10+**  
+- Database client: **PgAdmin** or **DBeaver**  
+
+### 2. Create Database and Insert Data  
+- Create a PostgreSQL database  
+- Use the SQL script to create tables and insert data  
+
+### 3. Install Python Libraries  
+```bash
+pip install -r requirements.txt
+### 4. Run main.py:
+```bash
+python main.py
+### Or you can use database tool.
