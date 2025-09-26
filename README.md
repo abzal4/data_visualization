@@ -24,7 +24,8 @@ The analytics helps answer questions such as:
 ---
 
 ## 📊 ERD Diagram  
-https://github.com/abzal4/data_visualization/blob/main/ERD%20Diagram.png
+<img width="1160" height="755" alt="image" src="https://github.com/abzal4/data_visualization/blob/main/ERD%20Diagram.png" />
+
 
 ---
 
