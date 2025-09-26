@@ -23,8 +23,8 @@ The analytics helps answer questions such as:
 
 ---
 
-## 📊 Example Analytics  
-![Analytics Screenshot](https://github.com/user-attachments/assets/44bdcc93-ab1b-426e-9b91-47a215b00ad9)  
+## 📊 ERD Diagram  
+https://github.com/abzal4/data_visualization/blob/main/ERD%20Diagram.png
 
 ---
 
@@ -48,7 +48,9 @@ Entity Relationship Diagram (ERD):
 ### 3. Install Python Libraries  
 ```bash
 pip install -r requirements.txt
+```
 ### 4. Run main.py:
 ```bash
 python main.py
+```
 ### Or you can use database tool.
